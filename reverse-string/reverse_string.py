@@ -5,5 +5,5 @@
 # if a step get negative value, then sequences are going to reverse way
 # with abs(value)
 
-def reverse(input=''):
-    return input[::-1]
+def reverse(str=''):
+    return str[::-1]
