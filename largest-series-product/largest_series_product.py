@@ -1,8 +1,8 @@
-def multiply(numbers):  
+def multiply(numbers):
     total = 1
     for x in numbers:
-        total *= x  
-    return total  
+        total *= x
+    return total
 
 def largest_product(series, size):
     if size < 0:

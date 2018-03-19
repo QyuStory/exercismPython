@@ -15,7 +15,7 @@ def decode(string):
             if not count:
                 pass
             else:
-                for i in range(int(count)-1):  
+                for i in range(int(count)-1):
                     result += e
             count = ''
     return result
@@ -37,21 +37,3 @@ def encode(string):
             temp = elem
             count = 1
     return result
-
-#    count, result, temp = 0, '', ''
-#    for idx in range(len(string)):
-#        if idx is 0:
-#            count += 1
-#            temp = string[idx]
-#        else:
-#            if temp is string[idx]:
-#                count += 1
-#            else:
-#                if count is 1:
-#                    result += temp
-#                else:
-#                    result = result + str(count) + temp
-#                if idx < len(string):
-#                    temp = string[idx]
-#                    count = 1
-#    return result

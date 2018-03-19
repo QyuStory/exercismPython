@@ -16,7 +16,6 @@ def verify(isbn):
             return (sum(list(int(x)*y for x, y in zip(front, range(10, 1, -1)))) + 10) % 11 == 0
         else:
             try:
-                x = int(tail)
                 return (sum(list(int(x)*y for x, y in zip(front, range(10, 1, -1)))) + int(tail)) % 11 == 0
             except ValueError:
                 return False

@@ -1,4 +1,4 @@
-import re 
+import re
 
 def is_blank(phrase):
     if phrase and phrase.strip():

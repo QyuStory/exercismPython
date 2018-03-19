@@ -1,5 +1,3 @@
-import string
-
 def convert(ch):
     return chr(ord('a') + (25 + (ord('a') - ord(ch))))
 

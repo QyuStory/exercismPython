@@ -4,5 +4,4 @@ def sieve(limit):
     for prime in test_member:
         if all(prime%divider for divider in test_member if prime is not divider):
             result.append(prime)
-    
     return result
